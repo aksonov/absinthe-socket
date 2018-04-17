@@ -1,0 +1,2 @@
+import _newArrowCheck from"babel-runtime/helpers/newArrowCheck";import{hasIn}from"@jumpn/utils-composite";import{remove}from"@jumpn/utils-array";var _this=void 0,findIndex=function(e,r,i){return _newArrowCheck(this,_this),e.findIndex(hasIn([r],i))}.bind(void 0),_this$1=void 0,remove$1=function(e){return _newArrowCheck(this,_this$1),function(r){return _newArrowCheck(this,_this$1),remove(findIndex(r,"request",e.request),1,r)}.bind(this)}.bind(void 0);export default remove$1;
+//# sourceMappingURL=remove.js.map
